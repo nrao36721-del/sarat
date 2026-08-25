@@ -1,0 +1,226 @@
+{
+  "app": {
+    "name": "Sarathi",
+    "tagline": "कल्याणकारी योजनाओं का आपका मार्गदर्शक"
+  },
+  "splash": {
+    "hindi": "सारथी",
+    "telugu": "సారథి"
+  },
+  "welcome": {
+    "title": "सारथी में आपका स्वागत है",
+    "subtitle": "गाँव के सहायकों की मदद करना जो विधवाओं की सहायता करते हैं",
+    "selectLanguage": "अपनी भाषा चुनें",
+    "getStarted": "शुरू करें",
+    "alreadyRegistered": "पहले से पंजीकृत? लॉगिन करें"
+  },
+  "register": {
+    "title": "सहायक पंजीकरण",
+    "fullName": "पूरा नाम",
+    "fullNamePlaceholder": "अपना पूरा नाम दर्ज करें",
+    "phoneNumber": "फ़ोन नंबर",
+    "phoneNumberPlaceholder": "10 अंकों का मोबाइल नंबर",
+    "helperType": "सहायक प्रकार",
+    "village": "गाँव",
+    "villagePlaceholder": "गाँव का नाम दर्ज करें",
+    "district": "ज़िला",
+    "selectDistrict": "ज़िला चुनें",
+    "state": "राज्य",
+    "createPin": "4-अंकों का पिन बनाएँ",
+    "confirmPin": "पिन की पुष्टि करें",
+    "pinMismatch": "पिन मेल नहीं खाते। पुनः प्रयास करें।",
+    "pinLength": "पिन ठीक 4 अंकों का होना चाहिए।",
+    "consent1": "मैं समझता/समझती हूँ कि मुझे किसी भी विधवा का विवरण दर्ज करने से पहले उससे मौखिक सहमति लेनी होगी।",
+    "consent2": "मैं नागरिक डेटा को ब्लॉक कार्यालय के अलावा किसी के साथ साझा नहीं करूँगा/करूँगी।",
+    "consentRequired": "जारी रखने के लिए दोनों सहमति बक्सों पर टिक करें।",
+    "submit": "पंजीकरण करें",
+    "fillAllFields": "कृपया सभी आवश्यक फ़ील्ड भरें।",
+    "helperTypes": {
+      "csc": "सीएससी ऑपरेटर",
+      "anganwadi": "आंगनवाड़ी कार्यकर्ता",
+      "asha": "आशा कार्यकर्ता",
+      "panchayat": "पंचायत सचिव",
+      "ngo": "एनजीओ फील्ड वर्कर",
+      "other": "अन्य"
+    }
+  },
+  "login": {
+    "title": "पिन दर्ज करें",
+    "subtitle": "वापसी पर स्वागत है, {{name}}",
+    "wrongPin": "गलत पिन। पुनः प्रयास करें।",
+    "forgotPin": "पिन भूल गए?",
+    "forgotPinMessage": "नई प्रोफ़ाइल बनाने के लिए पुनः पंजीकरण करें। यह सहेजी गई विधवा प्रोफ़ाइलों को नहीं हटाएगा।",
+    "reregister": "पुनः पंजीकरण"
+  },
+  "home": {
+    "greeting": "नमस्ते, {{name}}",
+    "newCheck": "नई विधवा जाँच",
+    "recentCases": "हाल के मामले",
+    "stuckCases": "अटके मामले",
+    "settings": "सेटिंग्स",
+    "noCases": "अभी तक कोई मामला नहीं",
+    "noStuckCases": "कोई अटका मामला नहीं",
+    "lastSynced": "अंतिम सिंक: {{time}}",
+    "neverSynced": "कभी सिंक नहीं",
+    "offline": "ऑफ़लाइन",
+    "online": "ऑनलाइन"
+  },
+  "newCheck": {
+    "title": "नई विधवा जाँच",
+    "name": "नाम (वैकल्पिक)",
+    "namePlaceholder": "विधवा का नाम",
+    "age": "आयु",
+    "maritalStatus": "वैवाहिक स्थिति",
+    "bpl": "गरीव रेखा के नीचे (बीपीएल)?",
+    "hasAadhaar": "क्या उनके पास आधार है?",
+    "hasDeathCertificate": "क्या उनके पास पति का मृत्यु प्रमाण पत्र है?",
+    "hasBankAccount": "क्या उनके नाम पर बैंक खाता है?",
+    "village": "गाँव",
+    "district": "ज़िला",
+    "checkEligibility": "पात्रता जाँचें",
+    "fillRequired": "कृपया सभी आवश्यक फ़ील्ड भरें।",
+    "widow": "विधवा",
+    "divorced": "तलाकशुदा",
+    "separated": "अलग",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "notSure": "पक्का नहीं",
+    "unknown": "पक्का नहीं"
+  },
+  "results": {
+    "title": "पात्रता परिणाम",
+    "matchedSchemes": "मेल खाने वाली योजनाएँ",
+    "noMatches": "कोई मेल खाने वाली योजना नहीं मिली।",
+    "noMatchesHelp": "उत्तर बदलने का प्रयास करें या एस्केलेट करने के लिए अटके बटन का उपयोग करें।",
+    "benefit": "लाभ",
+    "whereToApply": "कहाँ आवेदन करें",
+    "requiredDocuments": "आवश्यक दस्तावेज़",
+    "checkDocuments": "दस्तावेज़ जाँचें",
+    "stuck": "अटके",
+    "likelyEligible": "संभवतः पात्र — बीपीएल स्थिति की जाँच आवश्यक",
+    "category": {
+      "pension": "पेंशन",
+      "housing": "आवास",
+      "food": "खाद्य",
+      "health": "स्वास्थ्य",
+      "other": "अन्य"
+    }
+  },
+  "documents": {
+    "title": "दस्तावेज़ चेकलिस्ट",
+    "hasIt": "है?",
+    "document": "दस्तावेज़",
+    "whereToGet": "कहाँ से लाएँ",
+    "missing": "अनुपस्थित",
+    "available": "उपलब्ध",
+    "generateChecklist": "चेकलिस्ट बनाएँ",
+    "saveProfile": "प्रोफ़ाइल सहेजें",
+    "allDocsAvailable": "सभी दस्तावेज़ उपलब्ध हैं!"
+  },
+  "printable": {
+    "title": "विधवा के लिए चेकलिस्ट",
+    "name": "नाम",
+    "notProvided": "नहीं दिया गया",
+    "missingDocuments": "अनुपस्थित दस्तावेज़",
+    "instructions": "निर्देश",
+    "instructionsText": "ऊपर दिए गए दस्तावेज़ इकट्ठा करें और योजना कार्यालय में ले जाएँ। सहायता के लिए अपने गाँव के सहायक से संपर्क करें।",
+    "print": "प्रिंट",
+    "share": "साझा करें",
+    "readAloud": "पढ़कर सुनाएँ",
+    "noMissingDocs": "सभी आवश्यक दस्तावेज़ उपलब्ध हैं।"
+  },
+  "profile": {
+    "title": "विधवा प्रोफ़ाइल",
+    "details": "विवरण",
+    "documents": "दस्तावेज़",
+    "matchedSchemes": "मेल खाने वाली योजनाएँ",
+    "applicationHistory": "आवेदन इतिहास",
+    "markApplied": "आवेदित चिह्नित करें",
+    "stuck": "अटके",
+    "deleteProfile": "प्रोफ़ाइल हटाएँ",
+    "deleteConfirm": "क्या आप वाकई इस प्रोफ़ाइल को हटाना चाहते हैं?",
+    "noApplications": "अभी तक कोई आवेदन नहीं",
+    "appliedOn": "आवेदन तिथि: {{date}}",
+    "status": {
+      "submitted": "जमा",
+      "pending": "लंबित",
+      "stuck": "अटके"
+    },
+    "caseId": "केस आईडी"
+  },
+  "markApplied": {
+    "title": "आवेदित चिह्नित करें",
+    "selectSchemes": "आवेदन की गई योजनाएँ चुनें",
+    "phoneNumber": "विधवा का फ़ोन नंबर (वैकल्पिक)",
+    "phoneNumberPlaceholder": "10 अंकों का मोबाइल नंबर",
+    "smsLanguage": "एसएमएस भाषा",
+    "smsPreview": "एसएमएस पूर्वावलोकन",
+    "confirm": "पुष्टि करें और एसएमएस भेजें",
+    "confirmNoSms": "पुष्टि करें (कोई एसएमएस नहीं)",
+    "noSchemesSelected": "कृपया कम से कम एक योजना चुनें।",
+    "smsSent": "एसएमएस भेजा गया (अनुकरण)।",
+    "appliedSuccess": "आवेदन सफलतापूर्वक सहेजा गया।"
+  },
+  "stuck": {
+    "title": "अटके मामले की रिपोर्ट करें",
+    "reason": "समस्या क्या है?",
+    "reasons": {
+      "fingerprint": "फिंगरप्रिंट मैच नहीं हो रहा",
+      "aadhaar": "आधार मिसमैच",
+      "rejected": "आवेदन अस्वीकृत",
+      "other": "अन्य"
+    },
+    "note": "अतिरिक्त नोट (वैकल्पिक)",
+    "notePlaceholder": "समस्या का विवरण दें...",
+    "submit": "अटके मामले को जमा करें",
+    "confirmation": "केस दर्ज किया गया। समन्वयक आपसे संपर्क करेगा।",
+    "caseId": "केस आईडी: {{id}}",
+    "noteRequired": "'अन्य' कारण के लिए कृपया नोट जोड़ें।"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "helperDetails": "सहायक विवरण",
+    "changePin": "पिन बदलें",
+    "changeLanguage": "भाषा",
+    "viewLog": "ऑडिट लॉग देखें",
+    "about": "सारथी के बारे में",
+    "aboutText": "सारथी एक ऑफ़लाइन-फर्स्ट पीडब्ल्यूए है जो गाँव के कार्यकर्ताओं को विधवाओं को कल्याणकारी योजनाओं की खोज, आवेदन और ट्रैकिंग में सहायता करता है।",
+    "currentPin": "वर्तमान पिन",
+    "newPin": "नया 4-अंकों का पिन",
+    "confirmNewPin": "नए पिन की पुष्टि करें",
+    "change": "बदलें",
+    "pinChanged": "पिन सफलतापूर्वक बदला गया।",
+    "currentPinWrong": "वर्तमान पिन गलत है।",
+    "logOut": "लॉग आउट"
+  },
+  "auditLog": {
+    "title": "ऑडिट लॉग",
+    "empty": "अभी तक कोई क्रिया लॉग नहीं।",
+    "actions": {
+      "profile_created": "प्रोफ़ाइल बनाई गई",
+      "eligibility_checked": "पात्रता जाँची गई",
+      "checklist_generated": "चेकलिस्ट बनाई गई",
+      "profile_saved": "प्रोफ़ाइल सहेजी गई",
+      "marked_applied": "आवेदित चिह्नित किया गया",
+      "stuck_case_created": "अटके मामला बनाया गया",
+      "pin_changed": "पिन बदला गया",
+      "helper_registered": "सहायक पंजीकृत",
+      "helper_login": "सहायक लॉगिन"
+    }
+  },
+  "common": {
+    "back": "वापस",
+    "cancel": "रद्द करें",
+    "close": "बंद करें",
+    "save": "सहेजें",
+    "confirm": "पुष्टि करें",
+    "delete": "हटाएँ",
+    "loading": "लोड हो रहा है...",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "language": "भाषा",
+    "english": "English",
+    "hindi": "हिंदी",
+    "telugu": "తెలుగు"
+  }
+}

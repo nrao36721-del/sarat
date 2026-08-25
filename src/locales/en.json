@@ -1,0 +1,226 @@
+{
+  "app": {
+    "name": "Sarathi",
+    "tagline": "Your guide to welfare schemes"
+  },
+  "splash": {
+    "hindi": "सारथी",
+    "telugu": "సారథి"
+  },
+  "welcome": {
+    "title": "Welcome to Sarathi",
+    "subtitle": "Helping village helpers help widowed mothers",
+    "selectLanguage": "Select your language",
+    "getStarted": "Get Started",
+    "alreadyRegistered": "Already registered? Login"
+  },
+  "register": {
+    "title": "Helper Registration",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "phoneNumber": "Phone Number",
+    "phoneNumberPlaceholder": "10-digit mobile number",
+    "helperType": "Helper Type",
+    "village": "Village",
+    "villagePlaceholder": "Enter village name",
+    "district": "District",
+    "selectDistrict": "Select district",
+    "state": "State",
+    "createPin": "Create 4-Digit PIN",
+    "confirmPin": "Confirm PIN",
+    "pinMismatch": "PINs do not match. Please try again.",
+    "pinLength": "PIN must be exactly 4 digits.",
+    "consent1": "I understand that I must take verbal consent from every widow before entering her details.",
+    "consent2": "I will not share citizen data with anyone except the block office.",
+    "consentRequired": "Please tick both consent boxes to continue.",
+    "submit": "Register",
+    "fillAllFields": "Please fill all required fields.",
+    "helperTypes": {
+      "csc": "CSC Operator",
+      "anganwadi": "Anganwadi Worker",
+      "asha": "ASHA Worker",
+      "panchayat": "Panchayat Secretary",
+      "ngo": "NGO Field Worker",
+      "other": "Other"
+    }
+  },
+  "login": {
+    "title": "Enter PIN",
+    "subtitle": "Welcome back, {{name}}",
+    "wrongPin": "Wrong PIN. Try again.",
+    "forgotPin": "Forgot PIN?",
+    "forgotPinMessage": "Please re-register to create a new profile. This will not delete saved widow profiles.",
+    "reregister": "Re-register"
+  },
+  "home": {
+    "greeting": "Namaste, {{name}}",
+    "newCheck": "New Widow Check",
+    "recentCases": "Recent Cases",
+    "stuckCases": "Stuck Cases",
+    "settings": "Settings",
+    "noCases": "No cases yet",
+    "noStuckCases": "No stuck cases",
+    "lastSynced": "Last synced: {{time}}",
+    "neverSynced": "Never synced",
+    "offline": "Offline",
+    "online": "Online"
+  },
+  "newCheck": {
+    "title": "New Widow Check",
+    "name": "Name (optional)",
+    "namePlaceholder": "Widow's name",
+    "age": "Age",
+    "maritalStatus": "Marital Status",
+    "bpl": "Below Poverty Line (BPL)?",
+    "hasAadhaar": "Does she have Aadhaar?",
+    "hasDeathCertificate": "Does she have husband's death certificate?",
+    "hasBankAccount": "Does she have a bank account in her name?",
+    "village": "Village",
+    "district": "District",
+    "checkEligibility": "Check Eligibility",
+    "fillRequired": "Please fill all required fields.",
+    "widow": "Widow",
+    "divorced": "Divorced",
+    "separated": "Separated",
+    "yes": "Yes",
+    "no": "No",
+    "notSure": "Not Sure",
+    "unknown": "Not Sure"
+  },
+  "results": {
+    "title": "Eligibility Results",
+    "matchedSchemes": "Matched Schemes",
+    "noMatches": "No matching schemes found.",
+    "noMatchesHelp": "Try adjusting the answers or use the Stuck button to escalate.",
+    "benefit": "Benefit",
+    "whereToApply": "Where to Apply",
+    "requiredDocuments": "Required Documents",
+    "checkDocuments": "Check Documents",
+    "stuck": "Stuck",
+    "likelyEligible": "Likely eligible — BPL status needs verification",
+    "category": {
+      "pension": "Pension",
+      "housing": "Housing",
+      "food": "Food",
+      "health": "Health",
+      "other": "Other"
+    }
+  },
+  "documents": {
+    "title": "Document Checklist",
+    "hasIt": "Has it?",
+    "document": "Document",
+    "whereToGet": "Where to Get",
+    "missing": "Missing",
+    "available": "Available",
+    "generateChecklist": "Generate Checklist",
+    "saveProfile": "Save Profile",
+    "allDocsAvailable": "All documents available!"
+  },
+  "printable": {
+    "title": "Checklist for Widow",
+    "name": "Name",
+    "notProvided": "Not provided",
+    "missingDocuments": "Missing Documents",
+    "instructions": "Instructions",
+    "instructionsText": "Collect the documents listed above and take them to the scheme office. Contact your village helper if you need assistance.",
+    "print": "Print",
+    "share": "Share",
+    "readAloud": "Read Aloud",
+    "noMissingDocs": "All required documents are available."
+  },
+  "profile": {
+    "title": "Widow Profile",
+    "details": "Details",
+    "documents": "Documents",
+    "matchedSchemes": "Matched Schemes",
+    "applicationHistory": "Application History",
+    "markApplied": "Mark as Applied",
+    "stuck": "Stuck",
+    "deleteProfile": "Delete Profile",
+    "deleteConfirm": "Are you sure you want to delete this profile?",
+    "noApplications": "No applications yet",
+    "appliedOn": "Applied on {{date}}",
+    "status": {
+      "submitted": "Submitted",
+      "pending": "Pending",
+      "stuck": "Stuck"
+    },
+    "caseId": "Case ID"
+  },
+  "markApplied": {
+    "title": "Mark as Applied",
+    "selectSchemes": "Select schemes applied for",
+    "phoneNumber": "Widow's Phone Number (optional)",
+    "phoneNumberPlaceholder": "10-digit mobile number",
+    "smsLanguage": "SMS Language",
+    "smsPreview": "SMS Preview",
+    "confirm": "Confirm & Send SMS",
+    "confirmNoSms": "Confirm (No SMS)",
+    "noSchemesSelected": "Please select at least one scheme.",
+    "smsSent": "SMS sent (simulated).",
+    "appliedSuccess": "Application saved successfully."
+  },
+  "stuck": {
+    "title": "Report a Stuck Case",
+    "reason": "What is the problem?",
+    "reasons": {
+      "fingerprint": "Fingerprint not matching",
+      "aadhaar": "Aadhaar mismatch",
+      "rejected": "Application rejected",
+      "other": "Other"
+    },
+    "note": "Additional note (optional)",
+    "notePlaceholder": "Describe the issue...",
+    "submit": "Submit Stuck Case",
+    "confirmation": "Case logged. Coordinator will contact you.",
+    "caseId": "Case ID: {{id}}",
+    "noteRequired": "Please add a note for 'Other' reason."
+  },
+  "settings": {
+    "title": "Settings",
+    "helperDetails": "Helper Details",
+    "changePin": "Change PIN",
+    "changeLanguage": "Language",
+    "viewLog": "View Audit Log",
+    "about": "About Sarathi",
+    "aboutText": "Sarathi is an offline-first PWA that helps village-level workers assist widowed mothers in discovering, applying for, and tracking government welfare schemes.",
+    "currentPin": "Current PIN",
+    "newPin": "New 4-Digit PIN",
+    "confirmNewPin": "Confirm New PIN",
+    "change": "Change",
+    "pinChanged": "PIN changed successfully.",
+    "currentPinWrong": "Current PIN is incorrect.",
+    "logOut": "Log Out"
+  },
+  "auditLog": {
+    "title": "Audit Log",
+    "empty": "No actions logged yet.",
+    "actions": {
+      "profile_created": "Profile created",
+      "eligibility_checked": "Eligibility checked",
+      "checklist_generated": "Checklist generated",
+      "profile_saved": "Profile saved",
+      "marked_applied": "Marked as applied",
+      "stuck_case_created": "Stuck case created",
+      "pin_changed": "PIN changed",
+      "helper_registered": "Helper registered",
+      "helper_login": "Helper login"
+    }
+  },
+  "common": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "yes": "Yes",
+    "no": "No",
+    "language": "Language",
+    "english": "English",
+    "hindi": "हिंदी",
+    "telugu": "తెలుగు"
+  }
+}
